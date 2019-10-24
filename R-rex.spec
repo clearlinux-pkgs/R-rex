@@ -4,14 +4,12 @@
 #
 Name     : R-rex
 Version  : 1.1.2
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/rex_1.1.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rex_1.1.2.tar.gz
 Summary  : Friendly Regular Expressions
 Group    : Development/Tools
 License  : MIT
-Requires: R-dplyr
-Requires: R-ggplot2
 Requires: R-lazyeval
 Requires: R-magrittr
 BuildRequires : R-dplyr
@@ -19,6 +17,7 @@ BuildRequires : R-ggplot2
 BuildRequires : R-lazyeval
 BuildRequires : R-magrittr
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 # Rex
@@ -33,10 +32,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569293881
+export SOURCE_DATE_EPOCH=1571889419
 
 %install
-export SOURCE_DATE_EPOCH=1569293881
+export SOURCE_DATE_EPOCH=1571889419
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
