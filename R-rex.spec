@@ -4,7 +4,7 @@
 #
 Name     : R-rex
 Version  : 1.2.0
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/rex_1.2.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rex_1.2.0.tar.gz
 Summary  : Friendly Regular Expressions
